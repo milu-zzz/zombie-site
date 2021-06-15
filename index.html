@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">  
+    <head>
+        <meta charset="utf-8">
+        <title>Glare - Movement</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="milu#9999">
+        <meta property="og:title" content="Glare">
+        <meta property="og:description" content="Pretty Cool Cheat Imo">
+        <meta property="og:url" content="https://glare.tk/"/>
+        <meta name="theme-color" content="#fcfcfc">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <main>
+            <script>
+                function audioPlay() {
+                    var audio = document.getElementById("audio");
+                    audio.volume = 0.2
+                    audio.play()
+                }
+            </script>
+            <audio loop preload="auto" id="audio">
+                <source src="bodyparts.mp3" type="audio/mp3">
+            </audio>
+            <input type="checkbox" autocomplete="off" id="overlay-toggle">
+            <div class="overlay fullscreen">
+                <label for="overlay-toggle" onclick="audioPlay()">
+                    <span class="no-hover" style="font-family: monospace; font-size: 0.6em;">tap to enter</span>
+                    <span class="hover" style="font-family: monospace; font-size: 0.6em;">click to enter</span>
+                </label>
+            </div>
+            <section class="fullscreen text-content">
+                <h1 style="font-family: derk; text-shadow: 0 0 0.40em #cfcfcf;">glare</h1>
+              <!-- <div class='test-fix'>
+                <a href="/login/" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #ffffff;">login</a>
+                /
+                <a href="/register/" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #ffffff;">register</a>
+              </div> -->
+                <p style="font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #ffffff;">This site is currently undergoing maintenance.</p>
+                -
+              <div class='test-fix'>
+                <a href="https://discord.com/invite/8QJk2TaBjz" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #ffffff;">discord</a>
+                /
+                <a href="https://stats.uptimerobot.com/q80RyhOo6l" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #ffffff;">status</a>
+              </div>
+            </section>
+            <div style="position: relative">
+                <p style="position: fixed; bottom: 0; width:100%; text-align: center; font-family: Segoe UI; color: white;">© glare.tk - 2021</p>
+            </div>
+        </main>
+    </body>
