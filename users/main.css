@@ -21,7 +21,9 @@
     position:absolute;
     display: none;
   }
-  
+  .debold{
+    font-weight:normal
+  }
   .test-fix {
   display: flex;
   align-items: center;
