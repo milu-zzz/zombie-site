@@ -21,7 +21,10 @@
     position:absolute;
     display: none;
   }
-  .debold{
+  .h1 {
+    font-weight:bold;
+  }
+  .notbold {
     font-weight:normal
   }
   .test-fix {
