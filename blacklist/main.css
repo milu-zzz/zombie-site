@@ -21,10 +21,10 @@
     position:absolute;
     display: none;
   }
-  h1 {
-    font-weight:bold
+  .h1 {
+    font-weight:bold;
   }
-  .debold {
+  .notbold {
     font-weight:normal
   }
   .test-fix {
