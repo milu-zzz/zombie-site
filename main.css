@@ -21,12 +21,14 @@
     position:absolute;
     display: none;
   }
-
-.test-fix {
+  .debold{
+    font-weight:normal
+  }
+  .test-fix {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+  }
   .overlay {
     z-index: 1;
     background-color: black;
