@@ -21,6 +21,9 @@
     position:absolute;
     display: none;
   }
+  h1 {
+    font-weight:bold
+  }
   .debold {
     font-weight:normal
   }
