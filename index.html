@@ -22,10 +22,17 @@
                     audio.volume = 0.3
                     audio.play()
                 }
+                function videoPlay() {
+                    var video = document.getElementById("video");
+                    video.play()
+                }
             </script>
             <audio loop preload="auto" id="audio">
                 <source src="bodyparts.mp3" type="audio/mp3">
             </audio>
+            <video muted loop playsinline preload="auto" class="fullscreen bg-video" id="video">
+                <source src="bg-video.mp4" type="video/mp4">
+            </video>
             <input type="checkbox" autocomplete="off" id="overlay-toggle">
             <div class="overlay fullscreen">
                 <label for="overlay-toggle" onclick="audioPlay()">
