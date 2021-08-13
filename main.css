@@ -89,7 +89,7 @@
     line-height: 0.0;
     color: #cccccc;
     width: 100%;
-    display: block;
+    display: flex;
     text-align: center;
   }
   #overlay-toggle:checked ~ .overlay {
