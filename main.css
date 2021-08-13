@@ -24,6 +24,9 @@
   .debold{
     font-weight:normal
   }
+  .back {
+  width: 100%;
+  }
   .test-fix {
   display: flex;
   align-items: center;
