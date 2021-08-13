@@ -21,11 +21,11 @@
     position:absolute;
     display: none;
   }
-  .h1 {
-    font-weight:bold;
-  }
-  .notbold {
+  .debold{
     font-weight:normal
+  }
+  .back {
+  width: 100%;
   }
   .test-fix {
   display: flex;
@@ -88,7 +88,8 @@
     font-size: 1.3rem;
     line-height: 0.0;
     color: #cccccc;
-    display: flex;
+    display: block;
+    text-align: center;
   }
   #overlay-toggle:checked ~ .overlay {
     animation-fill-mode: forwards;
