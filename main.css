@@ -88,7 +88,9 @@
     font-size: 1.3rem;
     line-height: 0.0;
     color: #cccccc;
-    display: flex;
+    width: 100%;
+    display: block;
+    text-align: center;
   }
   #overlay-toggle:checked ~ .overlay {
     animation-fill-mode: forwards;
