@@ -44,9 +44,6 @@
     color: rgb(255, 255, 255);
     font-size: 2rem;
   }
-  .text-content a:hover {
-    opacity: 0.8;
-  }
   .no-hover {
     display: block;
   }
@@ -84,15 +81,18 @@
     display: flex;
   }
   .text-content a {
-    padding-top: 30px;
-    padding-right: 10px;
-    padding-bottom: 31px;
-    padding-left: 10px;
+    text-decoration:none;
+	padding-top: 9px;
+    padding-bottom: 10px;
     font-size: 1.3rem;
     line-height: 0.0;
-    color: #cccccc;
+    color: #FFFFFF;
     display: block;
     text-align: center;
+  }
+  .text-content a:hover {
+	transition:.4s!important;
+    color: #cccccc;!important
   }
   #overlay-toggle:checked ~ .overlay {
     animation-fill-mode: forwards;
